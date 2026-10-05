@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "readme-lint"
-version = "0.1.0"
+version = "0.1.1"
 description = "Score a README 0-100 and report missing sections and broken links"
 readme = "README.md"
 license = { text = "MIT" }

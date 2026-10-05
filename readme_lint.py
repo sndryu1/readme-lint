@@ -2,7 +2,7 @@
 """readme-lint: score a README (0-100) and report what is missing, including broken relative links."""
 import argparse, json, os, re, sys
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 # (code, points, message, regex over headings OR body)
 HEADING = re.compile(r"^#{1,6}\s+(.+?)\s*#*$", re.M)
 RULES = [
