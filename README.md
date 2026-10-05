@@ -26,7 +26,14 @@ score: 65/100
 コードブロック内のリンクは無視します。`http(s)://` などの外部リンクは確認しません(ネットワーク不要)。
 
 ## インストール
-単一ファイルなので、ダウンロードするだけです(pip 不要)。
+```
+pip install git+https://github.com/sndryu1/readme-lint.git
+```
+(PyPI 公開後は `pip install readme-lint`)
+
+**実行ファイル(Python 不要):** [Releases](https://github.com/sndryu1/readme-lint/releases) から Windows / macOS / Linux 用をダウンロード。
+
+または単一ファイルだけ取得:
 ```
 curl -O https://raw.githubusercontent.com/sndryu1/readme-lint/main/readme_lint.py
 ```
